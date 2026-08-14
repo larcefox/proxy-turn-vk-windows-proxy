@@ -1,0 +1,22 @@
+# Local Android configuration and signing material
+local.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Gradle and Android build output
+.gradle/
+**/build/
+app/release/
+*.apk
+*.aab
+
+# Generated native libraries
+app/src/main/jniLibs/
+
+# IDE and OS files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
